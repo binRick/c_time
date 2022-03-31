@@ -27,6 +27,12 @@ incdir = include_directories(
   '../ok',
 )
 #//***********************************************************/
+test_time2 = executable('test_time2', [ 
+    'src/time.c', 
+    'tests/test_time2.c',  
+  ], include_directories : [incdir], 
+  dependencies : [],
+)
 test_time1 = executable('test_time1', [ 
     'src/time.c', 
     'tests/test_time1.c',  
@@ -36,6 +42,7 @@ test_time1 = executable('test_time1', [
 #//***********************************************************/
 tests = [
   ['test time 1', test_time1, 'test-time-1.log'],
+  ['test time 2', test_time2, 'test-time-2.log'],
 ]
 #//***********************************************************/
 

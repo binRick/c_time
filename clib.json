@@ -16,6 +16,7 @@
         "binRick/c_aes": "*",
         "binRick/c_base64": "*",
         "binRick/c_dbg": "f7ffb638cd774bafe100bfeb22c7dc0d06840ce5",
-        "4thel00z/env.h": "0.1.0"
+        "4thel00z/env.h": "0.1.0",
+        "clibs/timestamp": "0.0.2"
     }
 }
